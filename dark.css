@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+#mycheck {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 60px;
+  height: 60px;
+}
+
+#mode-icon {
+  font-size: 80px;
+  position: absolute;
+  color: orange;
+}
+#mode {
+  margin-top: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
